@@ -1,0 +1,172 @@
+
+***********************************************************
+*    1 - -- CLONE GIT REPO           *
+***********************************************************
+Cloning into '_'...
+updating all submodules urls to inject credentials
+fetching submodules code
+468cb8f67cd4d048d4cdb89006e52370a2648b00 ZAW-372: gradient now is visible on galleries
+Gabriele Gattucci <> on Tue, 21 Dec 2021 18:13:10 +0100
+giving 777 to build scripts
+/_/ci-cd/pipelines/ZAW-372-arabic-fields-on-arabic-site.sh doesn't exist. Fallback: /_/ci-cd/pipelines/development.sh
+
+***********************************************************
+***********************************************************
+*    2 - -- FETCH CI RESULT REPO (IN PARALLEL)
+***********************************************************
+
+***********************************************************
+***********************************************************
+*    3 - -- CHECK COMMIT MESSAGE
+***********************************************************
+search for pattern:       ! -iname main -a    ! -iname ZAW-269-tag-pages -a    ! -iname ZAW-353-custom-html-for-slot-with-ads -a    ! -iname ZAW-366-rename-old-carousel -a    ! -iname ZAW-372-arabic-fields-on-arabic-site -a    ! -iname ZAW-388-slot-styles -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname ..
+ticket referenced in commit message is 'ZAW-372'
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=0
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+Cloning into '/__'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  171k    0  171k    0     0   292k      0 --:--:-- --:--:-- --:--:--  292k
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=1001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10996    0 10996    0     0  35470      0 --:--:-- --:--:-- --:--:-- 35356100  118k    0  118k    0     0   377k      0 --:--:-- --:--:-- --:--:--  376k
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=2001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    304      0 --:--:-- --:--:-- --:--:--   306
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=3001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    239      0 --:--:-- --:--:-- --:--:--   239
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=4001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    337      0 --:--:-- --:--:-- --:--:--   337
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=5001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    318      0 --:--:-- --:--:-- --:--:--   318
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=6001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    325      0 --:--:-- --:--:-- --:--:--   323100    56    0    56    0     0    316      0 --:--:-- --:--:-- --:--:--   314
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=7001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    309      0 --:--:-- --:--:-- --:--:--   311
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=8001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    294      0 --:--:-- --:--:-- --:--:--   294
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=9001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    264      0 --:--:-- --:--:-- --:--:--   264
+1688 tickets fetched by the given filter
+ZAW-372
+incoming commit message has a good prefix :)
+
+***********************************************************
+***********************************************************
+*    4 - -- RESTORE NPM PACKAGES
+***********************************************************
+yarn config v1.22.15
+success Set "network-timeout" to "300000".
+Done in 0.03s.
+yarn install v1.22.15
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info @next/swc-darwin-arm64@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-darwin-arm64@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-darwin-arm64@11.1.2: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-darwin-x64@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-darwin-x64@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-x64-msvc@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-win32-x64-msvc@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning "@storybook/addon-controls > @storybook/api > @reach/router@1.3.4" has incorrect peer dependency "react@15.x || 16.x || 16.4.0-alpha.0911da3".
+warning "@storybook/addon-controls > @storybook/api > @reach/router@1.3.4" has incorrect peer dependency "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3".
+warning "@storybook/addon-controls > @storybook/api > @reach/router > create-react-context@0.3.0" has incorrect peer dependency "react@^0.14.0 || ^15.0.0 || ^16.0.0".
+warning " > @babel/preset-env@7.15.8" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/preset-react@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/plugin-transform-modules-commonjs@7.15.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "next > styled-jsx > @babel/plugin-syntax-jsx@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > react-html-parser@2.0.2" has incorrect peer dependency "react@^0.14.0 || ^15.0.0 || ^16.0.0-0".
+warning " > react-script-tag@1.1.2" has incorrect peer dependency "react@^16.0.0".
+warning " > @storybook/addon-essentials@6.3.12" has unmet peer dependency "@babel/core@^7.9.6".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/components@^6.3.0".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/core-events@^6.3.0".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/theming@^6.3.0".
+warning " > babel-loader@8.2.3" has unmet peer dependency "@babel/core@^7.0.0".
+warning " > babel-loader@8.2.3" has unmet peer dependency "webpack@>=2".
+warning "@storybook/addon-essentials > @storybook/addon-docs > @storybook/core > @storybook/core-client@6.3.12" has unmet peer dependency "webpack@*".
+warning "@storybook/addon-essentials > @storybook/addon-docs > @storybook/builder-webpack4 > @storybook/core-common > fork-ts-checker-webpack-plugin@6.4.0" has unmet peer dependency "typescript@>= 2.7".
+warning "@storybook/react > @babel/preset-flow@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@storybook/react > @storybook/react-docgen-typescript-plugin@1.0.2-canary.253f8c1.0" has unmet peer dependency "typescript@>= 3.x".
+warning "@storybook/react > babel-plugin-named-asset-import@0.3.7" has unmet peer dependency "@babel/core@^7.1.0".
+warning "@storybook/react > @babel/preset-flow > @babel/plugin-transform-flow-strip-types@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@storybook/react > @storybook/react-docgen-typescript-plugin > react-docgen-typescript@2.1.1" has unmet peer dependency "typescript@>= 4.3.x".
+warning "@storybook/react > @babel/preset-flow > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > babel-jest@27.3.1" has unmet peer dependency "@babel/core@^7.8.0".
+warning "babel-jest > babel-preset-jest@27.2.0" has unmet peer dependency "@babel/core@^7.0.0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax@1.0.1" has unmet peer dependency "@babel/core@^7.0.0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-bigint@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-import-meta@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > eslint-config-xo-nextjs@3.2.0" has unmet peer dependency "eslint@>=7".
+warning " > eslint-config-xo-react@0.25.0" has unmet peer dependency "eslint@>=7".
+warning " > eslint-plugin-react@7.26.1" has unmet peer dependency "eslint@^3 || ^4 || ^5 || ^6 || ^7".
+warning " > eslint-plugin-react-hooks@4.2.0" has unmet peer dependency "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0".
+warning " > eslint-plugin-prettier@3.4.1" has unmet peer dependency "eslint@>=5.0.0".
+warning " > eslint-plugin-prettier@3.4.1" has unmet peer dependency "prettier@>=1.13.0".
+warning "xo > eslint-import-resolver-webpack@0.13.2" has unmet peer dependency "webpack@>=1.11.0".
+Checking out files:   2% (487/16811)   Checking out files:   3% (505/16811)   Checking out files:   4% (673/16811)   Checking out files:   5% (841/16811)   Checking out files:   6% (1009/16811)   Checking out files:   7% (1177/16811)   Checking out files:   7% (1192/16811)   Checking out files:   8% (1345/16811)   Checking out files:   9% (1513/16811)   Checking out files:  10% (1682/16811)   Checking out files:  11% (1850/16811)   Checking out files:  11% (1928/16811)   Checking out files:  12% (2018/16811)   Checking out files:  13% (2186/16811)   Checking out files:  14% (2354/16811)   Checking out files:  14% (2406/16811)   Checking out files:  15% (2522/16811)   Checking out files:  16% (2690/16811)   Checking out files:  17% (2858/16811)   Checking out files:  17% (2948/16811)   Checking out files:  18% (3026/16811)   Checking out files:  19% (3195/16811)   Checking out files:  20% (3363/16811)   Checking out files:  21% (3531/16811)   Checking out files:  21% (3691/16811)   Checking out files:  22% (3699/16811)   Checking out files:  23% (3867/16811)   Checking out files:  23% (3984/16811)   Checking out files:  24% (4035/16811)   Checking out files:  25% (4203/16811)   Checking out files:  26% (4371/16811)   Checking out files:  27% (4539/16811)   Checking out files:  27% (4619/16811)   Checking out files:  28% (4708/16811)   Checking out files:  28% (4844/16811)   Checking out files:  29% (4876/16811)   Checking out files:  29% (5022/16811)   Checking out files:  30% (5044/16811)   Checking out files:  31% (5212/16811)   Checking out files:  31% (5273/16811)   Checking out files:  32% (5380/16811)   Checking out files:  33% (5548/16811)   Checking out files:  33% (5598/16811)   Checking out files:  34% (5716/16811)   Checking out files:  34% (5858/16811)   Checking out files:  35% (5884/16811)   Checking out files:  36% (6052/16811)   Checking out files:  36% (6127/16811)   Checking out files:  37% (6221/16811)   Checking out files:  38% (6389/16811)   Checking out files:  38% (6440/16811)   [4/4] Building fresh packages...
+Checking out files:  39% (6557/16811)   Checking out files:  40% (6725/16811)   Checking out files:  41% (6893/16811)   Checking out files:  41% (6905/16811)   Checking out files:  42% (7061/16811)   Checking out files:  43% (7229/16811)   Checking out files:  44% (7397/16811)   Checking out files:  44% (7428/16811)   Checking out files:  45% (7565/16811)   Checking out files:  46% (7734/16811)   Checking out files:  46% (7892/16811)   Checking out files:  47% (7902/16811)   Checking out files:  48% (8070/16811)   Checking out files:  49% (8238/16811)   Checking out files:  49% (8363/16811)   Checking out files:  50% (8406/16811)   Checking out files:  51% (8574/16811)   Checking out files:  52% (8742/16811)   Checking out files:  52% (8795/16811)   Checking out files:  53% (8910/16811)   Checking out files:  54% (9078/16811)   Checking out files:  54% (9079/16811)   Checking out files:  54% (9193/16811)   Checking out files:  55% (9247/16811)   Checking out files:  56% (9415/16811)   Checking out files:  56% (9454/16811)   Checking out files:  57% (9583/16811)   Checking out files:  57% (9672/16811)   Checking out files:  58% (9751/16811)   Checking out files:  59% (9919/16811)   Checking out files:  59% (9940/16811)   Checking out files:  60% (10087/16811)   Checking out files:  60% (10122/16811)   Checking out files:  61% (10255/16811)   Checking out files:  61% (10339/16811)   Checking out files:  62% (10423/16811)   Checking out files:  62% (10582/16811)   Checking out files:  63% (10591/16811)   Checking out files:  64% (10760/16811)   Checking out files:  65% (10928/16811)   Done in 59.74s.
+
+***********************************************************
+***********************************************************
+*    5 - -- LINT
+***********************************************************
+yarn run v1.22.15
+$ xo --env=browser --env=node --env=jest --globals=cy --globals=Cypress
+Checking out files:  65% (10990/16811)   Checking out files:  66% (11096/16811)   Checking out files:  67% (11264/16811)   Checking out files:  67% (11414/16811)   Checking out files:  68% (11432/16811)   Checking out files:  69% (11600/16811)   Checking out files:  70% (11768/16811)   Checking out files:  71% (11936/16811)   Checking out files:  71% (11994/16811)   Checking out files:  72% (12104/16811)   Checking out files:  73% (12273/16811)   Checking out files:  74% (12441/16811)   Checking out files:  74% (12517/16811)   Checking out files:  75% (12609/16811)   Checking out files:  76% (12777/16811)   Checking out files:  77% (12945/16811)   Checking out files:  77% (13026/16811)   Checking out files:  78% (13113/16811)   Checking out files:  79% (13281/16811)   Checking out files:  80% (13449/16811)   Checking out files:  80% (13463/16811)   Checking out files:  81% (13617/16811)   Checking out files:  82% (13786/16811)   Checking out files:  82% (13852/16811)   Checking out files:  83% (13954/16811)   Checking out files:  84% (14122/16811)   Checking out files:  84% (14167/16811)   Checking out files:  85% (14290/16811)   Checking out files:  86% (14458/16811)   Checking out files:  87% (14626/16811)   Checking out files:  87% (14687/16811)   Checking out files:  88% (14794/16811)   Checking out files:  89% (14962/16811)   Checking out files:  90% (15130/16811)   Checking out files:  90% (15157/16811)   Checking out files:  91% (15299/16811)   Checking out files:  92% (15467/16811)   Checking out files:  92% (15594/16811)   Checking out files:  93% (15635/16811)   Checking out files:  94% (15803/16811)   Checking out files:  95% (15971/16811)   Checking out files:  95% (16008/16811)   Checking out files:  96% (16139/16811)   Checking out files:  97% (16307/16811)   Checking out files:  97% (16458/16811)   Checking out files:  98% (16475/16811)   Checking out files:  99% (16643/16811)   Checking out files: 100% (16811/16811)   Checking out files: 100% (16811/16811), done.
+ci-repo folder content before cleanup:
+ZAW-269-tag-pages
+ZAW-353-custom-html-for-slot-with-ads
+ZAW-366-rename-old-carousel
+ZAW-372-arabic-fields-on-arabic-site
+ZAW-372-image-and-galleries-should-display-arabic-field
+ZAW-388-slot-styles
+error.png
+index.html
+main
+running.gif
+success.png
+16835 files in total (244 folders)
+command about to run: find . \(       ! -iname main -a    ! -iname ZAW-269-tag-pages -a    ! -iname ZAW-353-custom-html-for-slot-with-ads -a    ! -iname ZAW-366-rename-old-carousel -a    ! -iname ZAW-372-arabic-fields-on-arabic-site -a    ! -iname ZAW-388-slot-styles -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname .. \) -maxdepth 1 -type d -exec rm -rf {} +
+ci-repo folder content after cleanup:
+ZAW-269-tag-pages
+ZAW-353-custom-html-for-slot-with-ads
+ZAW-366-rename-old-carousel
+ZAW-372-arabic-fields-on-arabic-site
+ZAW-388-slot-styles
+error.png
+index.html
+main
+running.gif
+success.png
+16831 files in total (243 folders)
+rebuilding report

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1024, initial-scale=1.0">
+  <title>Sprint ticket status</title>
+</head>
+<body>
+  <h1>Sprint ticket status</h1>
+  <!-- dynamic content start -->
+  <div>
+    <a href="./main/html_report/index.html"><div class="success"><h2>main</h2><span>last update: 22-12-2021 16:38:55</span><a href="/main/0cbcda04833fe42bed740000e0ea22a23aa26830_log.txt" class="log">full log here</a></div></a>
+    <a href="./ZAW-420-gallery-icon-is-visible-locally/html_report/index.html"><div class="running"><h2>ZAW-420-gallery-icon-is-visible-locally</h2><span>last update: 22-12-2021 17:31:17</span><a href="/ZAW-420-gallery-icon-is-visible-locally/001f966354703c87c67cda21c99eb75a32730d10_log.txt" class="log">full log here</a></div></a>
+    <a href="./ZAW-411-use-gtm-code/html_report/index.html"><div class="failed"><h2>ZAW-411-use-gtm-code</h2><span>last update: 22-12-2021 08:45:01</span><a href="/ZAW-411-use-gtm-code/fbd68589fa318077fd4b794aab421405b598d01c_log.txt" class="log">full log here</a></div></a>
+    <a href="./ZAW-388-slot-styles/html_report/index.html"><div class="running"><h2>ZAW-388-slot-styles</h2><span>last update: 22-12-2021 15:58:49</span><a href="/ZAW-388-slot-styles/56df0d0536f0eba780866283b0ac68b5e970e724_log.txt" class="log">full log here</a></div></a>
+    <a href="./ZAW-372-arabic-fields-on-arabic-site/html_report/index.html"><div class="failed"><h2>ZAW-372-arabic-fields-on-arabic-site</h2><span>last update: 21-12-2021 17:42:13</span><a href="/ZAW-372-arabic-fields-on-arabic-site/0c8d693e6b8529a39077215dbf496ec5f82abde9_log.txt" class="log">full log here</a></div></a>
+    <a href="./ZAW-353-custom-html-for-slot-with-ads-2/html_report/index.html"><div class="running"><h2>ZAW-353-custom-html-for-slot-with-ads-2</h2><span>last update: 22-12-2021 09:06:34</span><a href="/ZAW-353-custom-html-for-slot-with-ads-2/d96d8c507db18773af3a03f1ef9de73ac7b797d0_log.txt" class="log">full log here</a></div></a>
+  </div>
+  <!-- dynamic content end -->
+  <style>
+    body {
+      color: rgb(46, 48, 50);
+    }
+
+    a {
+      text-decoration-line: none;
+      color: unset;
+    }
+    
+    span {
+      color: #727272;
+      font-size: 12px;
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    .log {
+      color: #727272;
+      font-size: 12px;
+      position: absolute;
+      right: 26px;
+    }
+
+    .running {
+      color: gray;
+      background-image: url('./running.gif');
+    }
+    
+    .success {
+      color: green;
+      background-image: url('./success.png');
+    }
+
+    .failed {
+      color: red;
+      background-image: url('./error.png');
+    }
+    
+    .running, .success, .failed {
+      background-repeat: no-repeat;
+      background-size: 32px;
+      background-position-x: 8px;
+      background-position-y: 12px;
+
+      padding-left: 50px;
+      padding-top: 5px;
+      height: 50px;
+      margin: 10px;
+      background-color: #edebeb;
+      border-radius: 10px;
+    }
+
+    div .running {
+      border: 3px solid #edebeb;
+      background-color: transparent;
+    }
+
+  </style>
+</body>
+</html>

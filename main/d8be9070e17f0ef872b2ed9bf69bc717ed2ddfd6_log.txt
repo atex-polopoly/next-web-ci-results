@@ -1,0 +1,109 @@
+
+***********************************************************
+*    1 - -- CLONE GIT REPO           *
+***********************************************************
+Cloning into '_'...
+updating all submodules urls to inject credentials
+fetching submodules code
+d8be9070e17f0ef872b2ed9bf69bc717ed2ddfd6 ZAW-385: node 16
+Gabriele Gattucci <> on Tue, 14 Dec 2021 18:12:07 +0100
+giving 777 to build scripts
+/_/ci-cd/pipelines/main.sh doesn't exist. Fallback: /_/ci-cd/pipelines/development.sh
+
+***********************************************************
+***********************************************************
+*    2 - -- FETCH CI RESULT REPO (IN PARALLEL)
+***********************************************************
+
+***********************************************************
+***********************************************************
+*    3 - -- CHECK COMMIT MESSAGE
+***********************************************************
+search for pattern:       ! -iname main -a    ! -iname ZAW-352-fix-teams-notifications -a    ! -iname ZAW-387-page-query-fixes -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname ..
+ticket referenced in commit message is 'ZAW-385'
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=0
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+Cloning into '/__'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  171k    0  171k    0     0   306k      0 --:--:-- --:--:-- --:--:--  306k
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=1001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  111k    0  111k    0     0   395k      0 --:--:-- --:--:-- --:--:--  395k
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=2001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    311      0 --:--:-- --:--:-- --:--:--   312
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=3001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    269      0 --:--:-- --:--:-- --:--:--   270
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=4001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    278      0 --:--:-- --:--:-- --:--:--   280
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=5001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    247      0 --:--:-- --:--:-- --:--:--   247
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=6001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    242      0 --:--:-- --:--:-- --:--:--   241
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=7001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    296      0 --:--:-- --:--:-- --:--:--   297
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=8001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    288      0 --:--:-- --:--:-- --:--:--   290
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=9001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    284      0 --:--:-- --:--:-- --:--:--   284
+1652 tickets fetched by the given filter
+ZAW-385
+incoming commit message has a good prefix :)
+
+***********************************************************
+***********************************************************
+*    4 - -- RESTORE NPM PACKAGES
+***********************************************************
+yarn config v1.22.5
+success Set "network-timeout" to "300000".
+Done in 0.03s.
+yarn install v1.22.5
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+Checking out files:  49% (559/1123)   Checking out files:  50% (562/1123)   Checking out files:  51% (573/1123)   Checking out files:  52% (584/1123)   Checking out files:  53% (596/1123)   Checking out files:  54% (607/1123)   Checking out files:  55% (618/1123)   Checking out files:  56% (629/1123)   Checking out files:  57% (641/1123)   Checking out files:  58% (652/1123)   Checking out files:  59% (663/1123)   Checking out files:  60% (674/1123)   Checking out files:  61% (686/1123)   Checking out files:  62% (697/1123)   Checking out files:  63% (708/1123)   Checking out files:  64% (719/1123)   Checking out files:  65% (730/1123)   Checking out files:  66% (742/1123)   Checking out files:  67% (753/1123)   Checking out files:  68% (764/1123)   Checking out files:  69% (775/1123)   Checking out files:  70% (787/1123)   Checking out files:  71% (798/1123)   Checking out files:  72% (809/1123)   Checking out files:  73% (820/1123)   Checking out files:  74% (832/1123)   Checking out files:  75% (843/1123)   Checking out files:  76% (854/1123)   Checking out files:  77% (865/1123)   Checking out files:  78% (876/1123)   Checking out files:  79% (888/1123)   Checking out files:  80% (899/1123)   Checking out files:  81% (910/1123)   Checking out files:  82% (921/1123)   Checking out files:  83% (933/1123)   Checking out files:  84% (944/1123)   Checking out files:  85% (955/1123)   Checking out files:  86% (966/1123)   Checking out files:  87% (978/1123)   Checking out files:  88% (989/1123)   Checking out files:  89% (1000/1123)   Checking out files:  90% (1011/1123)   Checking out files:  91% (1022/1123)   Checking out files:  92% (1034/1123)   Checking out files:  93% (1045/1123)   Checking out files:  94% (1056/1123)   Checking out files:  95% (1067/1123)   Checking out files:  96% (1079/1123)   Checking out files:  97% (1090/1123)   Checking out files:  98% (1101/1123)   Checking out files:  99% (1112/1123)   Checking out files: 100% (1123/1123)   Checking out files: 100% (1123/1123), done.
+ci-repo folder content before cleanup:
+ZAW-352-fix-teams-notifications
+ZAW-387-page-query-fixes
+error.png
+index.html
+main
+running.gif
+success.png
+1146 files in total (54 folders)
+command about to run: find . \(       ! -iname main -a    ! -iname ZAW-352-fix-teams-notifications -a    ! -iname ZAW-387-page-query-fixes -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname .. \) -maxdepth 1 -type d -exec rm -rf {} +
+ci-repo folder content after cleanup:
+ZAW-352-fix-teams-notifications
+ZAW-387-page-query-fixes
+error.png
+index.html
+main
+running.gif
+success.png
+1146 files in total (54 folders)
+rebuilding report

@@ -1,0 +1,729 @@
+
+***********************************************************
+*    1 - -- CLONE GIT REPO           *
+***********************************************************
+Cloning into '_'...
+updating all submodules urls to inject credentials
+fetching submodules code
+c68c3e532c7a30c39e838dd02704e16b297a0faa ZAW-188: removed a brittle (duplicated) test
+Gabriele Gattucci <> on Fri, 17 Dec 2021 12:05:21 +0100
+giving 777 to build scripts
+/_/ci-cd/pipelines/main.sh doesn't exist. Fallback: /_/ci-cd/pipelines/development.sh
+
+***********************************************************
+***********************************************************
+*    2 - -- FETCH CI RESULT REPO (IN PARALLEL)
+***********************************************************
+
+***********************************************************
+***********************************************************
+*    3 - -- CHECK COMMIT MESSAGE
+***********************************************************
+search for pattern:       ! -iname main -a    ! -iname ZAW-344-embeds-fixes -a    ! -iname ZAW-353-custom-html-for-slot-with-ads -a    ! -iname ZAW-372-image-and-galleries-should-display-arabic-field -a    ! -iname ZAW-388-slot-styles -a    ! -iname ZAW-390-teaser-media-type-consideration-into-consideration -a    ! -iname ZAW-395-Missing-provider-default-should-not-be-press-release -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname ..
+ticket referenced in commit message is 'ZAW-188'
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=0
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+Cloning into '/__'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 15765    0 15765    0     0  17098      0 --:--:-- --:--:-- --:--:-- 17080100  171k    0  171k    0     0   185k      0 --:--:-- --:--:-- --:--:--  185k
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=1001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  115k    0  115k    0     0   297k      0 --:--:-- --:--:-- --:--:--  297k
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=2001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    255      0 --:--:-- --:--:-- --:--:--   254
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=3001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    278      0 --:--:-- --:--:-- --:--:--   278
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=4001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    261      0 --:--:-- --:--:-- --:--:--   261
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=5001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    285      0 --:--:-- --:--:-- --:--:--   285
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=6001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    314      0 --:--:-- --:--:-- --:--:--   314
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=7001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    267      0 --:--:-- --:--:-- --:--:--   266
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=8001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    282      0 --:--:-- --:--:-- --:--:--   282
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=9001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    281      0 --:--:-- --:--:-- --:--:--   281
+1670 tickets fetched by the given filter
+ZAW-188
+incoming commit message has a good prefix :)
+
+***********************************************************
+***********************************************************
+*    4 - -- RESTORE NPM PACKAGES
+***********************************************************
+yarn config v1.22.15
+success Set "network-timeout" to "300000".
+Done in 0.02s.
+yarn install v1.22.15
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+Checking out files:   5% (489/9404)   Checking out files:   6% (565/9404)   Checking out files:   7% (659/9404)   Checking out files:   8% (753/9404)   Checking out files:   9% (847/9404)   Checking out files:  10% (941/9404)   Checking out files:  11% (1035/9404)   info @next/swc-darwin-arm64@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-darwin-arm64@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-darwin-arm64@11.1.2: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-darwin-x64@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-darwin-x64@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-x64-msvc@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-win32-x64-msvc@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning "@storybook/addon-controls > @storybook/api > @reach/router@1.3.4" has incorrect peer dependency "react@15.x || 16.x || 16.4.0-alpha.0911da3".
+warning "@storybook/addon-controls > @storybook/api > @reach/router@1.3.4" has incorrect peer dependency "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3".
+warning "@storybook/addon-controls > @storybook/api > @reach/router > create-react-context@0.3.0" has incorrect peer dependency "react@^0.14.0 || ^15.0.0 || ^16.0.0".
+warning " > @babel/preset-env@7.15.8" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/preset-react@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/plugin-transform-modules-commonjs@7.15.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "next > styled-jsx > @babel/plugin-syntax-jsx@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > react-html-parser@2.0.2" has incorrect peer dependency "react@^0.14.0 || ^15.0.0 || ^16.0.0-0".
+warning " > react-script-tag@1.1.2" has incorrect peer dependency "react@^16.0.0".
+warning " > @storybook/addon-essentials@6.3.12" has unmet peer dependency "@babel/core@^7.9.6".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/components@^6.3.0".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/core-events@^6.3.0".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/theming@^6.3.0".
+warning " > babel-loader@8.2.3" has unmet peer dependency "@babel/core@^7.0.0".
+warning " > babel-loader@8.2.3" has unmet peer dependency "webpack@>=2".
+warning "@storybook/addon-essentials > @storybook/addon-docs > @storybook/core > @storybook/core-client@6.3.12" has unmet peer dependency "webpack@*".
+warning "@storybook/addon-essentials > @storybook/addon-docs > @storybook/builder-webpack4 > @storybook/core-common > fork-ts-checker-webpack-plugin@6.4.0" has unmet peer dependency "typescript@>= 2.7".
+warning "@storybook/react > @babel/preset-flow@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@storybook/react > @storybook/react-docgen-typescript-plugin@1.0.2-canary.253f8c1.0" has unmet peer dependency "typescript@>= 3.x".
+warning "@storybook/react > babel-plugin-named-asset-import@0.3.7" has unmet peer dependency "@babel/core@^7.1.0".
+warning "@storybook/react > @babel/preset-flow > @babel/plugin-transform-flow-strip-types@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@storybook/react > @storybook/react-docgen-typescript-plugin > react-docgen-typescript@2.1.1" has unmet peer dependency "typescript@>= 4.3.x".
+warning "@storybook/react > @babel/preset-flow > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > babel-jest@27.3.1" has unmet peer dependency "@babel/core@^7.8.0".
+warning "babel-jest > babel-preset-jest@27.2.0" has unmet peer dependency "@babel/core@^7.0.0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax@1.0.1" has unmet peer dependency "@babel/core@^7.0.0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-bigint@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-import-meta@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > eslint-config-xo-nextjs@3.2.0" has unmet peer dependency "eslint@>=7".
+warning " > eslint-config-xo-react@0.25.0" has unmet peer dependency "eslint@>=7".
+warning " > eslint-plugin-react@7.26.1" has unmet peer dependency "eslint@^3 || ^4 || ^5 || ^6 || ^7".
+warning " > eslint-plugin-react-hooks@4.2.0" has unmet peer dependency "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0".
+warning " > eslint-plugin-prettier@3.4.1" has unmet peer dependency "eslint@>=5.0.0".
+warning " > eslint-plugin-prettier@3.4.1" has unmet peer dependency "prettier@>=1.13.0".
+warning "xo > eslint-import-resolver-webpack@0.13.2" has unmet peer dependency "webpack@>=1.11.0".
+Checking out files:  11% (1095/9404)   Checking out files:  12% (1129/9404)   Checking out files:  13% (1223/9404)   Checking out files:  14% (1317/9404)   Checking out files:  15% (1411/9404)   Checking out files:  16% (1505/9404)   Checking out files:  17% (1599/9404)   Checking out files:  18% (1693/9404)   Checking out files:  19% (1787/9404)   Checking out files:  20% (1881/9404)   Checking out files:  21% (1975/9404)   Checking out files:  22% (2069/9404)   Checking out files:  23% (2163/9404)   Checking out files:  23% (2187/9404)   Checking out files:  24% (2257/9404)   Checking out files:  25% (2351/9404)   Checking out files:  26% (2446/9404)   Checking out files:  27% (2540/9404)   Checking out files:  28% (2634/9404)   Checking out files:  29% (2728/9404)   Checking out files:  29% (2800/9404)   Checking out files:  30% (2822/9404)   Checking out files:  31% (2916/9404)   Checking out files:  32% (3010/9404)   Checking out files:  33% (3104/9404)   Checking out files:  34% (3198/9404)   Checking out files:  35% (3292/9404)   Checking out files:  36% (3386/9404)   Checking out files:  36% (3462/9404)   Checking out files:  37% (3480/9404)   Checking out files:  38% (3574/9404)   Checking out files:  39% (3668/9404)   Checking out files:  40% (3762/9404)   Checking out files:  41% (3856/9404)   Checking out files:  42% (3950/9404)   Checking out files:  43% (4044/9404)   Checking out files:  43% (4081/9404)   Checking out files:  44% (4138/9404)   Checking out files:  45% (4232/9404)   Checking out files:  46% (4326/9404)   Checking out files:  47% (4420/9404)   Checking out files:  47% (4471/9404)   Checking out files:  48% (4514/9404)   Checking out files:  49% (4608/9404)   Checking out files:  49% (4700/9404)   Checking out files:  50% (4702/9404)   Checking out files:  51% (4797/9404)   Checking out files:  51% (4889/9404)   Checking out files:  52% (4891/9404)   Checking out files:  53% (4985/9404)   Checking out files:  54% (5079/9404)   Checking out files:  54% (5129/9404)   Checking out files:  55% (5173/9404)   Checking out files:  56% (5267/9404)   Checking out files:  57% (5361/9404)   Checking out files:  57% (5364/9404)   Checking out files:  58% (5455/9404)   Checking out files:  59% (5549/9404)   Checking out files:  59% (5585/9404)   Checking out files:  60% (5643/9404)   Checking out files:  61% (5737/9404)   Checking out files:  62% (5831/9404)   Checking out files:  62% (5839/9404)   Checking out files:  63% (5925/9404)   Checking out files:  63% (5954/9404)   Checking out files:  64% (6019/9404)   Checking out files:  65% (6113/9404)   Checking out files:  66% (6207/9404)   Checking out files:  66% (6208/9404)   Checking out files:  67% (6301/9404)   Checking out files:  68% (6395/9404)   Checking out files:  68% (6447/9404)   Checking out files:  69% (6489/9404)   Checking out files:  70% (6583/9404)   Checking out files:  71% (6677/9404)   Checking out files:  71% (6702/9404)   Checking out files:  72% (6771/9404)   Checking out files:  73% (6865/9404)   Checking out files:  73% (6936/9404)   Checking out files:  74% (6959/9404)   Checking out files:  75% (7053/9404)   Checking out files:  76% (7148/9404)   Checking out files:  76% (7162/9404)   Checking out files:  77% (7242/9404)   Checking out files:  78% (7336/9404)   Checking out files:  78% (7410/9404)   Checking out files:  79% (7430/9404)   Checking out files:  80% (7524/9404)   Checking out files:  80% (7586/9404)   Checking out files:  81% (7618/9404)   Checking out files:  82% (7712/9404)   Checking out files:  83% (7806/9404)   Checking out files:  83% (7830/9404)   Checking out files:  84% (7900/9404)   Checking out files:  85% (7994/9404)   Checking out files:  85% (8067/9404)   Checking out files:  86% (8088/9404)   Checking out files:  87% (8182/9404)   [4/4] Building fresh packages...
+Checking out files:  88% (8276/9404)   Checking out files:  88% (8337/9404)   Checking out files:  89% (8370/9404)   Checking out files:  90% (8464/9404)   Checking out files:  91% (8558/9404)   Checking out files:  92% (8652/9404)   Checking out files:  93% (8746/9404)   Checking out files:  93% (8783/9404)   Checking out files:  94% (8840/9404)   Checking out files:  95% (8934/9404)   Checking out files:  96% (9028/9404)   Checking out files:  97% (9122/9404)   Checking out files:  98% (9216/9404)   Checking out files:  98% (9242/9404)   Checking out files:  99% (9310/9404)   Checking out files: 100% (9404/9404)   Checking out files: 100% (9404/9404), done.
+ci-repo folder content before cleanup:
+ZAW-344-embeds-fixes
+ZAW-353-custom-html-for-slot-with-ads
+ZAW-372-image-and-galleries-should-display-arabic-field
+ZAW-388-slot-styles
+ZAW-390-teaser-media-type-consideration-into-consideration
+ZAW-395-Missing-provider-default-should-not-be-press-release
+error.png
+index.html
+main
+running.gif
+success.png
+9428 files in total (171 folders)
+command about to run: find . \(       ! -iname main -a    ! -iname ZAW-344-embeds-fixes -a    ! -iname ZAW-353-custom-html-for-slot-with-ads -a    ! -iname ZAW-372-image-and-galleries-should-display-arabic-field -a    ! -iname ZAW-388-slot-styles -a    ! -iname ZAW-390-teaser-media-type-consideration-into-consideration -a    ! -iname ZAW-395-Missing-provider-default-should-not-be-press-release -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname .. \) -maxdepth 1 -type d -exec rm -rf {} +
+ci-repo folder content after cleanup:
+ZAW-344-embeds-fixes
+ZAW-353-custom-html-for-slot-with-ads
+ZAW-372-image-and-galleries-should-display-arabic-field
+ZAW-388-slot-styles
+ZAW-390-teaser-media-type-consideration-into-consideration
+ZAW-395-Missing-provider-default-should-not-be-press-release
+error.png
+index.html
+main
+running.gif
+success.png
+9428 files in total (171 folders)
+rebuilding report
+removing old entries
+removing lines from 12 to 20
+ZAW-344-embeds-fixes/status:failed
+ZAW-353-custom-html-for-slot-with-ads/status:failed
+ZAW-372-image-and-galleries-should-display-arabic-field/status:failed
+ZAW-388-slot-styles/status:failed
+ZAW-390-teaser-media-type-consideration-into-consideration/status:success
+ZAW-395-Missing-provider-default-should-not-be-press-release/status:failed
+main/status:running
+Done in 54.46s.
+
+***********************************************************
+***********************************************************
+*    5 - -- LINT
+***********************************************************
+yarn run v1.22.15
+$ xo --env=browser --env=node --env=jest --globals=cy --globals=Cypress
+repo shrinked
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   103  100   103    0     0    281      0 --:--:-- --:--:-- --:--:--   281
+{
+  "status": "queued",
+  "url": "https://api.github.com/repositories/392746595/pages/builds/latest"
+}
+
+  components/Teaser/Teaser.jsx:113:1
+  ⚠  113:1  Function Teaser has a complexity of 26. Maximum allowed is 20.   complexity
+
+  components/Article/Article.jsx:128:1
+  ⚠  128:1  Function Article has a complexity of 67. Maximum allowed is 20.  complexity
+
+  pages/[...index].jsx:32:1
+  ⚠   32:1  Function Index has a complexity of 46. Maximum allowed is 20.    complexity
+
+  3 warnings
+Done in 18.05s.
+
+***********************************************************
+***********************************************************
+*    6 - -- FINGERPRINT WEBSITE
+***********************************************************
+
+***********************************************************
+***********************************************************
+*    7 - -- BUILD FOR PRODUCTION
+***********************************************************
+yarn run v1.22.15
+$ next build
+info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+info  - Checking validity of types...
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Collecting page data...
+Warning: You have opted-out of Automatic Static Optimization due to `getInitialProps` in `pages/_app`. This does not opt-out pages with `getStaticProps`
+Read more: https://nextjs.org/docs/messages/opt-out-auto-static-optimization
+
+Page                             Size     First Load JS
+┌ λ /                            293 B           354 kB
+├   /_app                        0 B             107 kB
+├ λ /[...index]                  221 B           354 kB
+├ λ /404                         194 B           107 kB
+├ λ /author/[...path]            3.24 kB         334 kB
+├ λ /footer                      831 B           203 kB
+├ λ /header                      830 B           203 kB
+├ λ /headerfooter                839 B           203 kB
+├ λ /pages/[...index]            408 B           207 kB
+├ λ /pages/browse                363 B           207 kB
+├ λ /pages/subscribe             361 B           207 kB
+├ λ /search                      4.78 kB         336 kB
+└ λ /tag/[...path]               2.87 kB         334 kB
++ First Load JS shared by all    107 kB
+  ├ chunks/framework.2191d1.js   42.4 kB
+  ├ chunks/main.6c72f1.js        24.4 kB
+  ├ chunks/pages/_app.27d26f.js  39.5 kB
+  └ chunks/webpack.613fd8.js     886 B
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+   (ISR)     incremental static regeneration (uses revalidate in getStaticProps)
+
+Done in 25.39s.
+
+***********************************************************
+***********************************************************
+*    8 - -- UNIT TEST
+***********************************************************
+yarn run v1.22.15
+$ jest
+PASS components/utils/escaper.test.js
+PASS components/LongForm/BlockLayouts/GalleryBlock/Carousel.test.js
+PASS components/Carousel/Carousel.test.js
+PASS components/BackToHome/BackToHome.test.js
+PASS components/SlotLayouts/utils/slot-with-ads.test.js
+PASS components/LongForm/BlockLayouts/TextBlock/TextBlock.test.js
+PASS components/LongForm/BlockLayouts/ImageBlock/ImageBlock.test.js
+PASS components/CarouselImageItem/CarouselImageItem.test.js
+PASS components/LongForm/BlockLayouts/VideoBlock/VideoBlock.test.js
+PASS components/Image/image-utils.test.js
+PASS components/utils/chunk.test.js
+PASS components/utils/safe-args.test.js
+PASS components/LongForm/BlockLayouts/HeadlineBlock/HeadlineBlock.test.js
+PASS components/SlotLayouts/MultiMedia/MultiMedia.test.js
+PASS components/LongForm/BlockLayouts/GalleryBlock/GalleryBlock.test.js
+PASS components/LongForm/LongForm.test.js (6.034 s)
+PASS components/SlotMachine/SlotLayouts/SlotLayouts.test.jsx
+
+Test Suites: 17 passed, 17 total
+Tests:       445 passed, 445 total
+Snapshots:   10 passed, 10 total
+Time:        8.468 s
+Ran all test suites.
+Done in 9.22s.
+found an override for script scripts/e2e.sh
+
+***********************************************************
+***********************************************************
+*    9 - -- SERVE APP
+***********************************************************
+BRIDGED_WITH_HOST env variable is not set. A local instance of the website and storybooks will be served
+
+***********************************************************
+***********************************************************
+*    10 - -- CHECKING IF APP IS STARTED
+***********************************************************
+URL: http://localhost:2999/en
+OPTIONS: -I
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Transient problem: connection refused Will retry in 1 seconds. 8 
+Warning: retries left.
+yarn run v1.22.15
+yarn run v1.22.15
+yarn run v1.22.15
+warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forwarded. In a future version, any explicit "--" will be forwarded as-is to the scripts.
+$ start-storybook -p 6006 -s public -p 6006 --ci --quiet
+warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forwarded. In a future version, any explicit "--" will be forwarded as-is to the scripts.
+$ STORYBOOK_DEFAULT_LOCALE=ar start-storybook -p 6007 -s public -p 6007 --ci --quiet
+$ PACE_GATEWAY_URL=https://api.staging.zawya.atexcloud.io/ace-pace-gateway/graphql DOTENV_CONFIG_PATH=./env/local.env yarn start
+$ NODE_ENV=production node server.js
+info @storybook/react v6.3.12
+info 
+info @storybook/react v6.3.12
+info 
+Next WEB server ready on http://localhost:2999
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0info => Loading presets
+info => Loading presets
+info Found existing addon "@storybook/addon-controls", skipping.
+info Found existing addon "@storybook/addon-controls", skipping.
+info => Serving static files from ./public at /
+info => Loading custom babel config
+info => Loading 1 config file in "/_/.storybook"
+info => Loading 5 other files in "/_/.storybook"
+info => Loading custom manager config
+info => Loading custom babel config
+info => Adding stories defined in "/_/.storybook/main.js"
+info => Loading custom manager config
+info => Using implicit CSS loaders
+info => Using default Webpack4 setup
+
+info => Ignoring cached manager due to change in manager config
+info => Serving static files from ./public at /
+info => Loading custom babel config
+info => Loading 1 config file in "/_/.storybook"
+info => Loading 5 other files in "/_/.storybook"
+info => Loading custom manager config
+info => Loading custom babel config
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: 
+info => Adding stories defined in "/_/.storybook/main.js"
+info => Loading custom manager config
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0info => Using implicit CSS loaders
+info => Using default Webpack4 setup
+
+info => Ignoring cached manager due to change in manager config
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+HTTP/1.1 307 Temporary Redirect
+X-Powered-By: Express
+Location: /en/mena
+Date: Fri, 17 Dec 2021 11:09:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=62
+
+next-web ready
+
+***********************************************************
+***********************************************************
+*    11 - -- CHECKING IF STORYBOOK IS STARTED
+***********************************************************
+URL: http://localhost:6006
+OPTIONS: -I
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-methods.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-methods.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-methods.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-methods.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m42ff1b7c9486f4aa975c[39m[22m
+Version: webpack [1m4.46.0[39m[22m
+Time: [1m16309[39m[22mms
+Built at: 12/17/2021 [1m11:09:59 AM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m        [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+           [1m[32m0.manager.bundle.js[39m[22m   115 KiB             [1m0[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[32m1.manager.bundle.js[39m[22m   211 KiB             [1m1[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[32m2.manager.bundle.js[39m[22m  67.3 KiB             [1m2[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[33m3.manager.bundle.js[39m[22m   [1m[33m373 KiB[39m[22m             [1m3[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  
+           [1m[32m4.manager.bundle.js[39m[22m  15.9 KiB             [1m4[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[32m5.manager.bundle.js[39m[22m  1.36 KiB             [1m5[39m[22m  [1m[32m[emitted][39m[22m         
+                    [1m[32mindex.html[39m[22m  3.11 KiB              [1m[39m[22m  [1m[32m[emitted][39m[22m         
+        [1m[32mmain.manager.bundle.js[39m[22m  5.65 KiB          [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mruntime~main.manager.bundle.js[39m[22m  8.95 KiB  [1mruntime~main[39m[22m  [1m[32m[emitted][39m[22m         runtime~main
+[1m[33mvendors~main.manager.bundle.js[39m[22m   [1m[33m4.3 MiB[39m[22m  [1mvendors~main[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~main
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mruntime~main.manager.bundle.js[39m[22m [1m[32mvendors~main.manager.bundle.js[39m[22m [1m[32mmain.manager.bundle.js[39m[22m
+[0] [1mmulti ./node_modules/@storybook/core-client/dist/esm/globals/polyfills.js ./.storybook/manager.js ./node_modules/@storybook/core-client/dist/esm/manager/index.js ./node_modules/@storybook/addon-links/dist/esm/register.js ./node_modules/@storybook/addon-docs/dist/esm/register.js ./node_modules/@storybook/addon-viewport/dist/esm/register.js ./node_modules/@storybook/addon-toolbars/dist/esm/register.js ./node_modules/@storybook/addon-measure/dist/esm/preset/manager.js ./node_modules/storybook-addon-outline/dist/esm/preset/register.js ./node_modules/@storybook/addon-controls/dist/esm/register.js[39m[22m 136 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./.storybook/manager.js] [1m./.storybook/manager.js + 1 modules[39m[22m 844 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    | [1m./.storybook/manager.js[39m[22m 181 bytes[1m[32m [built][39m[22m
+    | [1m./.storybook/theme.js[39m[22m 653 bytes[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-controls/dist/esm/register.js] [1m./node_modules/@storybook/addon-controls/dist/esm/register.js + 20 modules[39m[22m 103 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-controls/dist/esm/register.js[39m[22m 1.18 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-controls/dist/esm/constants.js[39m[22m 74 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-controls/dist/esm/ControlsPanel.js[39m[22m 4.35 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/addon-panel/addon-panel.js[39m[22m 908 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/typography/DocumentFormatting.js[39m[22m 13.9 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/typography/shared.js[39m[22m 1.42 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/blocks/Source.js[39m[22m 3.21 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/blocks/ArgsTable/NoControlsWarning.js[39m[22m 862 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/markdown-to-jsx/dist/index.module.js[39m[22m 14.6 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/controls/options/Options.js[39m[22m 3.02 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/blocks/EmptyBlock.js[39m[22m 1.22 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/blocks/ArgsTable/ArgsTable.js[39m[22m 16.5 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/controls/options/Checkbox.js[39m[22m 5.09 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/controls/options/Radio.js[39m[22m 2.01 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/controls/options/Select.js[39m[22m 4.73 KiB[1m[32m [built][39m[22m
+    |     + 6 hidden modules
+[./node_modules/@storybook/addon-docs/dist/esm/register.js] [1m./node_modules/@storybook/addon-docs/dist/esm/register.js + 1 modules[39m[22m 1020 bytes {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-docs/dist/esm/register.js[39m[22m 625 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-docs/dist/esm/shared.js[39m[22m 380 bytes[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-links/dist/esm/register.js] [1m./node_modules/@storybook/addon-links/dist/esm/register.js + 1 modules[39m[22m 633 bytes {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-links/dist/esm/register.js[39m[22m 398 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-links/dist/esm/constants.js[39m[22m 225 bytes[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-measure/dist/esm/preset/manager.js] [1m./node_modules/@storybook/addon-measure/dist/esm/preset/manager.js + 2 modules[39m[22m 3.29 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-measure/dist/esm/preset/manager.js[39m[22m 425 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-measure/dist/esm/constants.js[39m[22m 249 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-measure/dist/esm/Tool.js[39m[22m 2.61 KiB[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-toolbars/dist/esm/register.js] [1m./node_modules/@storybook/addon-toolbars/dist/esm/register.js + 10 modules[39m[22m 18 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/register.js[39m[22m 467 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/constants.js[39m[22m 76 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/components/ToolbarManager.js[39m[22m 1.39 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/components/ToolbarMenuList.js[39m[22m 4.73 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/utils/normalize-toolbar-arg-type.js[39m[22m 1.05 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/components/ToolbarMenuButton.js[39m[22m 625 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/hoc/withKeyboardCycle.js[39m[22m 5.03 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/utils/get-selected-icon.js[39m[22m 372 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/components/ToolbarMenuListItem.js[39m[22m 979 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/utils/create-cycle-value-array.js[39m[22m 524 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/utils/register-shortcuts.js[39m[22m 2.69 KiB[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-viewport/dist/esm/register.js] [1m./node_modules/@storybook/addon-viewport/dist/esm/register.js + 4 modules[39m[22m 18.7 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/register.js[39m[22m 514 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/constants.js[39m[22m 316 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/Tool.js[39m[22m 10.9 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/shortcuts.js[39m[22m 3.81 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/defaults.js[39m[22m 2.98 KiB[1m[32m [built][39m[22m
+[[1m./node_modules/@storybook/addons/dist/esm/public_api.js[39m[22m] 515 bytes[1m[32m [built][39m[22m
+[./node_modules/@storybook/api/dist/esm/index.js] [1m./node_modules/@storybook/api/dist/esm/index.js + 21 modules[39m[22m 132 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/index.js[39m[22m 18.3 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/context.js[39m[22m 249 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/store.js[39m[22m 5.5 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/lib/merge.js[39m[22m 795 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/initial-state.js[39m[22m 401 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/lib/stories.js[39m[22m 8.49 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/provider.js[39m[22m 281 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/addons.js[39m[22m 5.95 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/channel.js[39m[22m 1.19 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/notifications.js[39m[22m 2.76 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/settings.js[39m[22m 3.66 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/release-notes.js[39m[22m 3.5 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/refs.js[39m[22m 15.8 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/stories.js[39m[22m 17.4 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/layout.js[39m[22m 7.47 KiB[1m[32m [built][39m[22m
+    |     + 7 hidden modules
+[[1m./node_modules/@storybook/components/dist/esm/index.js[39m[22m] 1.92 KiB[1m[32m [built][39m[22m
+[[1m./node_modules/@storybook/core-client/dist/esm/globals/polyfills.js[39m[22m] 97 bytes {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/@storybook/core-client/dist/esm/manager/index.js] [1m./node_modules/@storybook/core-client/dist/esm/manager/index.js + 79 modules[39m[22m 566 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/core-client/dist/esm/manager/index.js[39m[22m 335 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/ui/dist/esm/index.js[39m[22m 2.96 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/core-client/dist/esm/manager/provider.js[39m[22m 4.45 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/core-client/dist/esm/manager/conditional-polyfills.js[39m[22m 762 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/react-helmet-async/lib/index.module.js[39m[22m 13.4 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/spaced/Spaced.js[39m[22m 3.26 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/brand/StorybookLogo.js[39m[22m 4.9 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/Badge/Badge.js[39m[22m 1.63 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/Loader/Loader.js[39m[22m 8.86 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/bar/bar.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/placeholder/placeholder.js[39m[22m 3.81 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/tabs/tabs.js[39m[22m 10.4 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/Zoom/Zoom.js[39m[22m 458 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/brand/StorybookIcon.js[39m[22m 2.87 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/typography/DocumentWrapper.js[39m[22m 6.69 KiB[1m[32m [built][39m[22m
+    |     + 65 hidden modules
+[[1m./node_modules/airbnb-js-shims/index.js[39m[22m] 40 bytes {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/storybook-addon-outline/dist/esm/preset/register.js] [1m./node_modules/storybook-addon-outline/dist/esm/preset/register.js + 2 modules[39m[22m 3.16 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/storybook-addon-outline/dist/esm/preset/register.js[39m[22m 539 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/storybook-addon-outline/dist/esm/constants.js[39m[22m 76 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/storybook-addon-outline/dist/esm/OutlineSelector.js[39m[22m 2.53 KiB[1m[32m [built][39m[22m
+    + 924 hidden modules
+Child [1mHtmlWebpackCompiler[39m[22m:
+                          [1mAsset[39m[22m      [1mSize[39m[22m               [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m__child-HtmlWebpackPlugin_0[39m[22m  6.26 KiB  [1mHtmlWebpackPlugin_0[39m[22m  [1m[32m[39m[22mHtmlWebpackPlugin_0
+    Entrypoint [1mHtmlWebpackPlugin_0[39m[22m = [1m[32m__child-HtmlWebpackPlugin_0[39m[22m
+    [[1m./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/@storybook/core-common/dist/cjs/templates/index.ejs[39m[22m] 1.94 KiB {[1m[33mHtmlWebpackPlugin_0[39m[22m}[1m[32m [built][39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m1dba741ee29e116b4770[39m[22m
+Version: webpack [1m4.46.0[39m[22m
+Time: [1m15329[39m[22mms
+Built at: 12/17/2021 [1m11:09:59 AM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m        [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+           [1m[32m0.manager.bundle.js[39m[22m   115 KiB             [1m0[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[32m1.manager.bundle.js[39m[22m   211 KiB             [1m1[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[32m2.manager.bundle.js[39m[22m  67.3 KiB             [1m2[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[33m3.manager.bundle.js[39m[22m   [1m[33m373 KiB[39m[22m             [1m3[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  
+           [1m[32m4.manager.bundle.js[39m[22m  15.9 KiB             [1m4[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[32m5.manager.bundle.js[39m[22m  1.36 KiB             [1m5[39m[22m  [1m[32m[emitted][39m[22m         
+                    [1m[32mindex.html[39m[22m  3.11 KiB              [1m[39m[22m  [1m[32m[emitted][39m[22m         
+        [1m[32mmain.manager.bundle.js[39m[22m  5.65 KiB          [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mruntime~main.manager.bundle.js[39m[22m  8.95 KiB  [1mruntime~main[39m[22m  [1m[32m[emitted][39m[22m         runtime~main
+[1m[33mvendors~main.manager.bundle.js[39m[22m   [1m[33m4.3 MiB[39m[22m  [1mvendors~main[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~main
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mruntime~main.manager.bundle.js[39m[22m [1m[32mvendors~main.manager.bundle.js[39m[22m [1m[32mmain.manager.bundle.js[39m[22m
+[0] [1mmulti ./node_modules/@storybook/core-client/dist/esm/globals/polyfills.js ./.storybook/manager.js ./node_modules/@storybook/core-client/dist/esm/manager/index.js ./node_modules/@storybook/addon-links/dist/esm/register.js ./node_modules/@storybook/addon-docs/dist/esm/register.js ./node_modules/@storybook/addon-viewport/dist/esm/register.js ./node_modules/@storybook/addon-toolbars/dist/esm/register.js ./node_modules/@storybook/addon-measure/dist/esm/preset/manager.js ./node_modules/storybook-addon-outline/dist/esm/preset/register.js ./node_modules/@storybook/addon-controls/dist/esm/register.js[39m[22m 136 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./.storybook/manager.js] [1m./.storybook/manager.js + 1 modules[39m[22m 844 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    | [1m./.storybook/manager.js[39m[22m 181 bytes[1m[32m [built][39m[22m
+    | [1m./.storybook/theme.js[39m[22m 653 bytes[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-controls/dist/esm/register.js] [1m./node_modules/@storybook/addon-controls/dist/esm/register.js + 20 modules[39m[22m 103 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-controls/dist/esm/register.js[39m[22m 1.18 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-controls/dist/esm/constants.js[39m[22m 74 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-controls/dist/esm/ControlsPanel.js[39m[22m 4.35 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/addon-panel/addon-panel.js[39m[22m 908 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/typography/DocumentFormatting.js[39m[22m 13.9 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/typography/shared.js[39m[22m 1.42 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/blocks/Source.js[39m[22m 3.21 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/blocks/ArgsTable/NoControlsWarning.js[39m[22m 862 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/markdown-to-jsx/dist/index.module.js[39m[22m 14.6 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/controls/options/Options.js[39m[22m 3.02 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/blocks/EmptyBlock.js[39m[22m 1.22 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/blocks/ArgsTable/ArgsTable.js[39m[22m 16.5 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/controls/options/Checkbox.js[39m[22m 5.09 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/controls/options/Radio.js[39m[22m 2.01 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/controls/options/Select.js[39m[22m 4.73 KiB[1m[32m [built][39m[22m
+    |     + 6 hidden modules
+[./node_modules/@storybook/addon-docs/dist/esm/register.js] [1m./node_modules/@storybook/addon-docs/dist/esm/register.js + 1 modules[39m[22m 1020 bytes {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-docs/dist/esm/register.js[39m[22m 625 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-docs/dist/esm/shared.js[39m[22m 380 bytes[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-links/dist/esm/register.js] [1m./node_modules/@storybook/addon-links/dist/esm/register.js + 1 modules[39m[22m 633 bytes {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-links/dist/esm/register.js[39m[22m 398 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-links/dist/esm/constants.js[39m[22m 225 bytes[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-measure/dist/esm/preset/manager.js] [1m./node_modules/@storybook/addon-measure/dist/esm/preset/manager.js + 2 modules[39m[22m 3.29 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-measure/dist/esm/preset/manager.js[39m[22m 425 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-measure/dist/esm/constants.js[39m[22m 249 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-measure/dist/esm/Tool.js[39m[22m 2.61 KiB[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-toolbars/dist/esm/register.js] [1m./node_modules/@storybook/addon-toolbars/dist/esm/register.js + 10 modules[39m[22m 18 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/register.js[39m[22m 467 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/constants.js[39m[22m 76 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/components/ToolbarManager.js[39m[22m 1.39 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/components/ToolbarMenuList.js[39m[22m 4.73 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/utils/normalize-toolbar-arg-type.js[39m[22m 1.05 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/components/ToolbarMenuButton.js[39m[22m 625 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/hoc/withKeyboardCycle.js[39m[22m 5.03 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/utils/get-selected-icon.js[39m[22m 372 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/components/ToolbarMenuListItem.js[39m[22m 979 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/utils/create-cycle-value-array.js[39m[22m 524 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-toolbars/dist/esm/utils/register-shortcuts.js[39m[22m 2.69 KiB[1m[32m [built][39m[22m
+[./node_modules/@storybook/addon-viewport/dist/esm/register.js] [1m./node_modules/@storybook/addon-viewport/dist/esm/register.js + 4 modules[39m[22m 18.7 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/register.js[39m[22m 514 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/constants.js[39m[22m 316 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/Tool.js[39m[22m 10.9 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/shortcuts.js[39m[22m 3.81 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/addon-viewport/dist/esm/defaults.js[39m[22m 2.98 KiB[1m[32m [built][39m[22m
+[[1m./node_modules/@storybook/addons/dist/esm/public_api.js[39m[22m] 515 bytes[1m[32m [built][39m[22m
+[./node_modules/@storybook/api/dist/esm/index.js] [1m./node_modules/@storybook/api/dist/esm/index.js + 21 modules[39m[22m 132 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/index.js[39m[22m 18.3 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/context.js[39m[22m 249 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/store.js[39m[22m 5.5 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/lib/merge.js[39m[22m 795 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/initial-state.js[39m[22m 401 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/lib/stories.js[39m[22m 8.49 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/provider.js[39m[22m 281 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/addons.js[39m[22m 5.95 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/channel.js[39m[22m 1.19 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/notifications.js[39m[22m 2.76 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/settings.js[39m[22m 3.66 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/release-notes.js[39m[22m 3.5 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/refs.js[39m[22m 15.8 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/stories.js[39m[22m 17.4 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/api/dist/esm/modules/layout.js[39m[22m 7.47 KiB[1m[32m [built][39m[22m
+    |     + 7 hidden modules
+[[1m./node_modules/@storybook/components/dist/esm/index.js[39m[22m] 1.92 KiB[1m[32m [built][39m[22m
+[[1m./node_modules/@storybook/core-client/dist/esm/globals/polyfills.js[39m[22m] 97 bytes {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/@storybook/core-client/dist/esm/manager/index.js] [1m./node_modules/@storybook/core-client/dist/esm/manager/index.js + 79 modules[39m[22m 566 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/core-client/dist/esm/manager/index.js[39m[22m 335 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/ui/dist/esm/index.js[39m[22m 2.96 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/core-client/dist/esm/manager/provider.js[39m[22m 4.45 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/core-client/dist/esm/manager/conditional-polyfills.js[39m[22m 762 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/react-helmet-async/lib/index.module.js[39m[22m 13.4 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/spaced/Spaced.js[39m[22m 3.26 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/brand/StorybookLogo.js[39m[22m 4.9 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/Badge/Badge.js[39m[22m 1.63 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/Loader/Loader.js[39m[22m 8.86 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/bar/bar.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/placeholder/placeholder.js[39m[22m 3.81 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/tabs/tabs.js[39m[22m 10.4 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/Zoom/Zoom.js[39m[22m 458 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/brand/StorybookIcon.js[39m[22m 2.87 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@storybook/components/dist/esm/typography/DocumentWrapper.js[39m[22m 6.69 KiB[1m[32m [built][39m[22m
+    |     + 65 hidden modules
+[[1m./node_modules/airbnb-js-shims/index.js[39m[22m] 40 bytes {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/storybook-addon-outline/dist/esm/preset/register.js] [1m./node_modules/storybook-addon-outline/dist/esm/preset/register.js + 2 modules[39m[22m 3.16 KiB {[1m[33mvendors~main[39m[22m}[1m[32m [built][39m[22m
+    | [1m./node_modules/storybook-addon-outline/dist/esm/preset/register.js[39m[22m 539 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/storybook-addon-outline/dist/esm/constants.js[39m[22m 76 bytes[1m[32m [built][39m[22m
+    | [1m./node_modules/storybook-addon-outline/dist/esm/OutlineSelector.js[39m[22m 2.53 KiB[1m[32m [built][39m[22m
+    + 924 hidden modules
+Child [1mHtmlWebpackCompiler[39m[22m:
+                          [1mAsset[39m[22m      [1mSize[39m[22m               [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m__child-HtmlWebpackPlugin_0[39m[22m  6.26 KiB  [1mHtmlWebpackPlugin_0[39m[22m  [1m[32m[39m[22mHtmlWebpackPlugin_0
+    Entrypoint [1mHtmlWebpackPlugin_0[39m[22m = [1m[32m__child-HtmlWebpackPlugin_0[39m[22m
+    [[1m./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/@storybook/core-common/dist/cjs/templates/index.ejs[39m[22m] 1.94 KiB {[1m[33mHtmlWebpackPlugin_0[39m[22m}[1m[32m [built][39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0webpack built preview ec05166f1d97f9254673 in 18094ms
+╭─────────────────────────────────────────────────╮
+│                                                 │
+│   Storybook 6.3.12 started                      │
+│   17 s for manager and 18 s for preview         │
+│                                                 │
+│    Local:            http://localhost:6007/     │
+│    On your network:  http://172.18.0.2:6007/    │
+│                                                 │
+│   A new version (6.4.9) is available!           │
+│                                                 │
+│   Upgrade now: npx sb@latest upgrade            │
+│                                                 │
+│   Read full changelog: https://git.io/fhFYe     │
+│                                                 │
+╰─────────────────────────────────────────────────╯
+webpack built preview 2548a6a99a5941e31c5f in 18087ms
+  0  3181    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+Content-Length: 3181
+ETag: W/"c6d-74YIl2WkxcA7N7PW/To/uNrpqSs"
+Vary: Accept-Encoding
+Date: Fri, 17 Dec 2021 11:10:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+storybook ready
+
+***********************************************************
+***********************************************************
+*    12 - -- CHECKING IF STORYBOOK-AR IS STARTED
+***********************************************************
+URL: http://localhost:6007
+OPTIONS: -I
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  3181    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+Content-Length: 3181
+ETag: W/"c6d-MUrNHxElrwKyfpkt0594ZS2hZig"
+Vary: Accept-Encoding
+Date: Fri, 17 Dec 2021 11:10:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+storybook (AR) ready
+
+***********************************************************
+***********************************************************
+*    13 - -- E2E
+***********************************************************
+╭─────────────────────────────────────────────────╮
+│                                                 │
+│   Storybook 6.3.12 started                      │
+│   17 s for manager and 18 s for preview         │
+│                                                 │
+│    Local:            http://localhost:6006/     │
+│    On your network:  http://172.18.0.2:6006/    │
+│                                                 │
+│   A new version (6.4.9) is available!           │
+│                                                 │
+│   Upgrade now: npx sb@latest upgrade            │
+│                                                 │
+│   Read full changelog: https://git.io/fhFYe     │
+│                                                 │
+╰─────────────────────────────────────────────────╯
+yarn run v1.22.15
+$ node ./ci-cd/test/e2e/backstopjs/custom_scripts/ci.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/_/test/e2e/backstopjs/test_cases/website/header'
+Require stack:
+- /_/ci-cd/test/e2e/backstopjs/backstop_data/engine_scripts/puppet/common.js
+- /_/ci-cd/test/e2e/backstopjs/custom_scripts/ci.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at cloneTests (/_/ci-cd/test/e2e/backstopjs/backstop_data/engine_scripts/puppet/common.js:136:15)
+    at Object.<anonymous> (/_/test/e2e/backstopjs/test_cases/website-ar/header.js:7:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/_/ci-cd/test/e2e/backstopjs/backstop_data/engine_scripts/puppet/common.js',
+    '/_/ci-cd/test/e2e/backstopjs/custom_scripts/ci.js'
+  ]
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+***********************************************************
+***********************************************************
+*    14 - PUBLISH TEST RESULTS
+***********************************************************
+waiting for file /ci-repo-fetched existance (60 seconds timeout)
+file /ci-repo-fetched exists on filesystem
+backstop report file /_/test/e2e/backstopjs/backstop_data/html_report/index.html not found
+removing old entries
+removing lines from 12 to 20
+ZAW-344-embeds-fixes/status:failed
+ZAW-353-custom-html-for-slot-with-ads/status:failed
+ZAW-372-image-and-galleries-should-display-arabic-field/status:failed
+ZAW-388-slot-styles/status:failed
+ZAW-390-teaser-media-type-consideration-into-consideration/status:success
+ZAW-395-Missing-provider-default-should-not-be-press-release/status:failed
+main/status:failed

@@ -1,0 +1,330 @@
+
+***********************************************************
+*    1 - -- CLONE GIT REPO           *
+***********************************************************
+Cloning into '_'...
+updating all submodules urls to inject credentials
+fetching submodules code
+0f9783eef1e9c62cdd6075f66a624c61880bcfb7 Merge remote-tracking branch 'origin/ZAW-372-arabic-fields-on-arabic-site' into ZAW-372-arabic-fields-on-arabic-site
+aurk <asad.uk2009@gmail.com> on Tue, 21 Dec 2021 22:23:15 +0500
+giving 777 to build scripts
+/_/ci-cd/pipelines/ZAW-372-arabic-fields-on-arabic-site.sh doesn't exist. Fallback: /_/ci-cd/pipelines/development.sh
+
+***********************************************************
+***********************************************************
+*    2 - -- FETCH CI RESULT REPO (IN PARALLEL)
+***********************************************************
+
+***********************************************************
+***********************************************************
+*    3 - -- CHECK COMMIT MESSAGE
+***********************************************************
+ticket referenced in commit message is 'Merge'
+dealing with a merge. Will skip commit message check.
+search for pattern:       ! -iname main -a    ! -iname ZAW-269-tag-pages -a    ! -iname ZAW-353-custom-html-for-slot-with-ads -a    ! -iname ZAW-372-arabic-fields-on-arabic-site -a    ! -iname ZAW-388-slot-styles -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname ..
+
+***********************************************************
+***********************************************************
+*    4 - -- RESTORE NPM PACKAGES
+***********************************************************
+Cloning into '/__'...
+yarn config v1.22.15
+success Set "network-timeout" to "300000".
+Done in 0.02s.
+yarn install v1.22.15
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info @next/swc-darwin-arm64@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-darwin-arm64@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-darwin-arm64@11.1.2: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-darwin-x64@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-darwin-x64@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-x64-msvc@11.1.2: The platform "linux" is incompatible with this module.
+info "@next/swc-win32-x64-msvc@11.1.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning "@storybook/addon-controls > @storybook/api > @reach/router@1.3.4" has incorrect peer dependency "react@15.x || 16.x || 16.4.0-alpha.0911da3".
+warning "@storybook/addon-controls > @storybook/api > @reach/router@1.3.4" has incorrect peer dependency "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3".
+warning "@storybook/addon-controls > @storybook/api > @reach/router > create-react-context@0.3.0" has incorrect peer dependency "react@^0.14.0 || ^15.0.0 || ^16.0.0".
+warning " > @babel/preset-env@7.15.8" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/preset-react@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @babel/plugin-transform-modules-commonjs@7.15.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "next > styled-jsx > @babel/plugin-syntax-jsx@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > react-html-parser@2.0.2" has incorrect peer dependency "react@^0.14.0 || ^15.0.0 || ^16.0.0-0".
+warning " > react-script-tag@1.1.2" has incorrect peer dependency "react@^16.0.0".
+warning " > @storybook/addon-essentials@6.3.12" has unmet peer dependency "@babel/core@^7.9.6".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/components@^6.3.0".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/core-events@^6.3.0".
+warning "@storybook/addon-essentials > @storybook/addon-measure@2.0.0" has unmet peer dependency "@storybook/theming@^6.3.0".
+warning " > babel-loader@8.2.3" has unmet peer dependency "@babel/core@^7.0.0".
+warning " > babel-loader@8.2.3" has unmet peer dependency "webpack@>=2".
+warning "@storybook/addon-essentials > @storybook/addon-docs > @storybook/core > @storybook/core-client@6.3.12" has unmet peer dependency "webpack@*".
+warning "@storybook/addon-essentials > @storybook/addon-docs > @storybook/builder-webpack4 > @storybook/core-common > fork-ts-checker-webpack-plugin@6.4.0" has unmet peer dependency "typescript@>= 2.7".
+warning "@storybook/react > @babel/preset-flow@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@storybook/react > @storybook/react-docgen-typescript-plugin@1.0.2-canary.253f8c1.0" has unmet peer dependency "typescript@>= 3.x".
+warning "@storybook/react > babel-plugin-named-asset-import@0.3.7" has unmet peer dependency "@babel/core@^7.1.0".
+warning "@storybook/react > @babel/preset-flow > @babel/plugin-transform-flow-strip-types@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@storybook/react > @storybook/react-docgen-typescript-plugin > react-docgen-typescript@2.1.1" has unmet peer dependency "typescript@>= 4.3.x".
+warning "@storybook/react > @babel/preset-flow > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > babel-jest@27.3.1" has unmet peer dependency "@babel/core@^7.8.0".
+warning "babel-jest > babel-preset-jest@27.2.0" has unmet peer dependency "@babel/core@^7.0.0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax@1.0.1" has unmet peer dependency "@babel/core@^7.0.0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-bigint@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-import-meta@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > eslint-config-xo-nextjs@3.2.0" has unmet peer dependency "eslint@>=7".
+warning " > eslint-config-xo-react@0.25.0" has unmet peer dependency "eslint@>=7".
+warning " > eslint-plugin-react@7.26.1" has unmet peer dependency "eslint@^3 || ^4 || ^5 || ^6 || ^7".
+warning " > eslint-plugin-react-hooks@4.2.0" has unmet peer dependency "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0".
+warning " > eslint-plugin-prettier@3.4.1" has unmet peer dependency "eslint@>=5.0.0".
+warning " > eslint-plugin-prettier@3.4.1" has unmet peer dependency "prettier@>=1.13.0".
+warning "xo > eslint-import-resolver-webpack@0.13.2" has unmet peer dependency "webpack@>=1.11.0".
+Checking out files:   3% (506/16809)   Checking out files:   4% (673/16809)   Checking out files:   5% (841/16809)   Checking out files:   6% (1009/16809)   Checking out files:   7% (1177/16809)   Checking out files:   7% (1238/16809)   Checking out files:   8% (1345/16809)   Checking out files:   9% (1513/16809)   Checking out files:  10% (1681/16809)   Checking out files:  11% (1849/16809)   Checking out files:  11% (1971/16809)   Checking out files:  12% (2018/16809)   Checking out files:  13% (2186/16809)   Checking out files:  14% (2354/16809)   Checking out files:  14% (2463/16809)   Checking out files:  15% (2522/16809)   Checking out files:  16% (2690/16809)   Checking out files:  17% (2858/16809)   Checking out files:  18% (3026/16809)   Checking out files:  18% (3155/16809)   Checking out files:  19% (3194/16809)   Checking out files:  20% (3362/16809)   Checking out files:  21% (3530/16809)   Checking out files:  22% (3698/16809)   Checking out files:  23% (3867/16809)   Checking out files:  23% (3882/16809)   Checking out files:  24% (4035/16809)   Checking out files:  24% (4180/16809)   Checking out files:  25% (4203/16809)   Checking out files:  26% (4371/16809)   Checking out files:  26% (4445/16809)   Checking out files:  27% (4539/16809)   Checking out files:  27% (4703/16809)   Checking out files:  28% (4707/16809)   Checking out files:  29% (4875/16809)   Checking out files:  29% (4937/16809)   Checking out files:  30% (5043/16809)   Checking out files:  30% (5183/16809)   Checking out files:  31% (5211/16809)   Checking out files:  32% (5379/16809)   Checking out files:  32% (5450/16809)   Checking out files:  33% (5547/16809)   Checking out files:  34% (5716/16809)   Checking out files:  34% (5791/16809)   Checking out files:  35% (5884/16809)   Checking out files:  36% (6052/16809)   Checking out files:  36% (6060/16809)   Checking out files:  37% (6220/16809)   Checking out files:  37% (6292/16809)   Checking out files:  38% (6388/16809)   Checking out files:  38% (6548/16809)   Checking out files:  39% (6556/16809)   Checking out files:  40% (6724/16809)   Checking out files:  40% (6864/16809)   Checking out files:  41% (6892/16809)   Checking out files:  42% (7060/16809)   [4/4] Building fresh packages...
+Checking out files:  42% (7144/16809)   Checking out files:  43% (7228/16809)   Checking out files:  44% (7396/16809)   Checking out files:  45% (7565/16809)   Checking out files:  45% (7607/16809)   Checking out files:  46% (7733/16809)   Checking out files:  47% (7901/16809)   Checking out files:  48% (8069/16809)   Checking out files:  48% (8130/16809)   Checking out files:  49% (8237/16809)   Checking out files:  50% (8405/16809)   Checking out files:  50% (8510/16809)   Checking out files:  51% (8573/16809)   Checking out files:  52% (8741/16809)   Checking out files:  52% (8784/16809)   Checking out files:  53% (8909/16809)   Checking out files:  54% (9077/16809)   Checking out files:  54% (9106/16809)   Checking out files:  55% (9245/16809)   Checking out files:  55% (9339/16809)   Checking out files:  56% (9414/16809)   Checking out files:  57% (9582/16809)   Checking out files:  57% (9622/16809)   Checking out files:  58% (9750/16809)   Checking out files:  58% (9872/16809)   Checking out files:  59% (9918/16809)   Checking out files:  60% (10086/16809)   Checking out files:  60% (10091/16809)   Checking out files:  61% (10254/16809)   Checking out files:  61% (10340/16809)   Checking out files:  62% (10422/16809)   Checking out files:  62% (10551/16809)   Checking out files:  63% (10590/16809)   Checking out files:  63% (10733/16809)   Checking out files:  64% (10758/16809)   Checking out files:  65% (10926/16809)   Done in 58.32s.
+Checking out files:  66% (11094/16809)   
+***********************************************************
+Checking out files:  66% (11099/16809)   ***********************************************************
+*    5 - -- LINT
+***********************************************************
+yarn run v1.22.15
+$ xo --env=browser --env=node --env=jest --globals=cy --globals=Cypress
+Checking out files:  67% (11263/16809)   Checking out files:  68% (11431/16809)   Checking out files:  68% (11542/16809)   Checking out files:  69% (11599/16809)   Checking out files:  70% (11767/16809)   Checking out files:  71% (11935/16809)   Checking out files:  71% (12041/16809)   Checking out files:  72% (12103/16809)   Checking out files:  73% (12271/16809)   Checking out files:  74% (12439/16809)   Checking out files:  74% (12530/16809)   Checking out files:  75% (12607/16809)   Checking out files:  76% (12775/16809)   Checking out files:  77% (12943/16809)   Checking out files:  77% (13016/16809)   Checking out files:  78% (13112/16809)   Checking out files:  79% (13280/16809)   Checking out files:  79% (13439/16809)   Checking out files:  80% (13448/16809)   Checking out files:  81% (13616/16809)   Checking out files:  82% (13784/16809)   Checking out files:  83% (13952/16809)   Checking out files:  83% (13956/16809)   Checking out files:  84% (14120/16809)   Checking out files:  85% (14288/16809)   Checking out files:  85% (14346/16809)   Checking out files:  86% (14456/16809)   Checking out files:  87% (14624/16809)   Checking out files:  87% (14760/16809)   Checking out files:  88% (14792/16809)   Checking out files:  89% (14961/16809)   Checking out files:  90% (15129/16809)   Checking out files:  90% (15247/16809)   Checking out files:  91% (15297/16809)   Checking out files:  92% (15465/16809)   Checking out files:  93% (15633/16809)   Checking out files:  93% (15663/16809)   Checking out files:  94% (15801/16809)   Checking out files:  95% (15969/16809)   Checking out files:  96% (16137/16809)   Checking out files:  96% (16139/16809)   Checking out files:  97% (16305/16809)   Checking out files:  98% (16473/16809)   Checking out files:  98% (16518/16809)   Checking out files:  99% (16641/16809)   Checking out files: 100% (16809/16809)   Checking out files: 100% (16809/16809), done.
+ci-repo folder content before cleanup:
+ZAW-269-tag-pages
+ZAW-353-custom-html-for-slot-with-ads
+ZAW-366-rename-old-carousel
+ZAW-372-arabic-fields-on-arabic-site
+ZAW-388-slot-styles
+error.png
+index.html
+main
+running.gif
+success.png
+16833 files in total (243 folders)
+command about to run: find . \(       ! -iname main -a    ! -iname ZAW-269-tag-pages -a    ! -iname ZAW-353-custom-html-for-slot-with-ads -a    ! -iname ZAW-372-arabic-fields-on-arabic-site -a    ! -iname ZAW-388-slot-styles -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname .. \) -maxdepth 1 -type d -exec rm -rf {} +
+ci-repo folder content after cleanup:
+ZAW-269-tag-pages
+ZAW-353-custom-html-for-slot-with-ads
+ZAW-372-arabic-fields-on-arabic-site
+ZAW-388-slot-styles
+error.png
+index.html
+main
+running.gif
+success.png
+15811 files in total (229 folders)
+rebuilding report
+removing old entries
+removing lines from 12 to 19
+ZAW-269-tag-pages/status:failed
+ZAW-353-custom-html-for-slot-with-ads/status:running
+ZAW-372-arabic-fields-on-arabic-site/status:running
+ZAW-388-slot-styles/status:failed
+main/status:running
+repo shrinked
+
+  components/utils/text-value-converter.jsx:16:6
+  ⚠   16:6  React Hook useEffect has a missing dependency: locale. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+  components/Teaser/Teaser.jsx:113:1
+  ⚠  113:1  Function Teaser has a complexity of 26. Maximum allowed is 20.                                            complexity
+
+  components/Article/Article.jsx:136:1
+  ⚠  136:1  Function Article has a complexity of 67. Maximum allowed is 20.                                           complexity
+
+  pages/[...index].jsx:32:1
+  ⚠   32:1  Function Index has a complexity of 46. Maximum allowed is 20.                                             complexity
+
+  4 warnings
+Done in 20.81s.
+
+***********************************************************
+***********************************************************
+*    6 - -- FINGERPRINT WEBSITE
+***********************************************************
+
+***********************************************************
+***********************************************************
+*    7 - -- BUILD FOR PRODUCTION
+***********************************************************
+yarn run v1.22.15
+$ next build
+info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+info  - Checking validity of types...
+info  - Creating an optimized production build...
+uploading to s3
+info  - Compiled successfully
+info  - Collecting page data...
+Warning: You have opted-out of Automatic Static Optimization due to `getInitialProps` in `pages/_app`. This does not opt-out pages with `getStaticProps`
+Read more: https://nextjs.org/docs/messages/opt-out-auto-static-optimization
+
+Page                             Size     First Load JS
+┌ λ /                            293 B           355 kB
+├   /_app                        0 B             107 kB
+├ λ /[...index]                  221 B           355 kB
+├ λ /404                         194 B           108 kB
+├ λ /author/[...path]            3.24 kB         335 kB
+├ λ /footer                      831 B           203 kB
+├ λ /header                      830 B           203 kB
+├ λ /headerfooter                839 B           203 kB
+├ λ /pages/[...index]            408 B           207 kB
+├ λ /pages/browse                363 B           207 kB
+├ λ /pages/subscribe             361 B           207 kB
+├ λ /search                      4.78 kB         336 kB
+└ λ /tag/[...path]               2.87 kB         334 kB
++ First Load JS shared by all    107 kB
+  ├ chunks/framework.2191d1.js   42.4 kB
+  ├ chunks/main.6c72f1.js        24.4 kB
+  ├ chunks/pages/_app.26c375.js  39.6 kB
+  └ chunks/webpack.613fd8.js     886 B
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+   (ISR)     incremental static regeneration (uses revalidate in getStaticProps)
+
+Done in 27.47s.
+
+***********************************************************
+***********************************************************
+*    8 - -- UNIT TEST
+***********************************************************
+yarn run v1.22.15
+$ jest
+PASS components/utils/escaper.test.js
+PASS components/LongForm/BlockLayouts/GalleryBlock/Carousel.test.js
+PASS components/Carousel/Carousel.test.js
+PASS components/BackToHome/BackToHome.test.js
+PASS components/CarouselImageItem/CarouselImageItem.test.js
+PASS components/SlotLayouts/utils/slot-with-ads.test.js
+PASS components/LongForm/BlockLayouts/TextBlock/TextBlock.test.js
+PASS components/LongForm/BlockLayouts/ImageBlock/ImageBlock.test.js
+PASS components/LongForm/BlockLayouts/VideoBlock/VideoBlock.test.js
+PASS components/Image/image-utils.test.js
+FAIL components/SlotLayouts/MultiMedia/MultiMedia.test.js
+  ● MultiMedia › renders a carousel image item
+
+    expect(received).toMatchSnapshot()
+
+    Snapshot name: `MultiMedia renders a carousel image item 1`
+
+    - Snapshot  - 0
+    + Received  + 3
+
+    @@ -210,10 +210,11 @@
+                      </div>
+                    </div>
+                    <div
+                      className="jsx-564279832 jsx-2194287716 titles"
+                    >
+    +                 
+                      <p
+                        className="jsx-564279832 jsx-2194287716 title"
+                      >
+                        MEDIA GALLERY
+                      </p>
+    @@ -418,10 +419,11 @@
+                      </div>
+                    </div>
+                    <div
+                      className="jsx-564279832 jsx-2194287716 titles"
+                    >
+    +                 
+                      <p
+                        className="jsx-564279832 jsx-2194287716 title"
+                      >
+                        MEDIA GALLERY
+                      </p>
+    @@ -626,10 +628,11 @@
+                      </div>
+                    </div>
+                    <div
+                      className="jsx-564279832 jsx-2194287716 titles"
+                    >
+    +                 
+                      <p
+                        className="jsx-564279832 jsx-2194287716 title"
+                      >
+                        MEDIA GALLERY
+                      </p>
+
+      10 |     const tree = renderer.create(<MultiMedia {...input} />).toJSON()
+      11 |
+    > 12 |     expect(tree).toMatchSnapshot()
+         |                  ^
+      13 |   })
+      14 | })
+      15 |
+
+      at Object.<anonymous> (components/SlotLayouts/MultiMedia/MultiMedia.test.js:12:18)
+
+ › 1 snapshot failed.
+PASS components/utils/text-value-converter.test.jsx
+PASS components/utils/safe-args.test.js
+PASS components/LongForm/BlockLayouts/HeadlineBlock/HeadlineBlock.test.js
+  ● Console
+
+    console.log
+      called!!!
+
+      at components/utils/text-value-converter.jsx:14:13
+
+    console.log
+      called!!!
+
+      at components/utils/text-value-converter.jsx:14:13
+
+    console.log
+      called!!!
+
+      at components/utils/text-value-converter.jsx:14:13
+
+PASS components/utils/chunk.test.js
+PASS components/LongForm/BlockLayouts/GalleryBlock/GalleryBlock.test.js
+PASS components/LongForm/LongForm.test.js (6.981 s)
+  ● Console
+
+    console.log
+      called!!!
+
+      at components/utils/text-value-converter.jsx:14:13
+
+    console.log
+      called!!!
+
+      at components/utils/text-value-converter.jsx:14:13
+
+PASS components/SlotMachine/SlotLayouts/SlotLayouts.test.jsx
+
+Snapshot Summary
+ › 1 snapshot failed from 1 test suite. Inspect your code changes or run `yarn test -u` to update them.
+
+Test Suites: 1 failed, 17 passed, 18 total
+Tests:       1 failed, 449 passed, 450 total
+Snapshots:   1 failed, 9 passed, 10 total
+Time:        9.78 s
+Ran all test suites.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+***********************************************************
+***********************************************************
+*    9 - PUBLISH TEST RESULTS
+***********************************************************
+waiting for file /ci-repo-fetched existance (60 seconds timeout)
+file /ci-repo-fetched exists on filesystem
+backstop report file /_/test/e2e/backstopjs/backstop_data/html_report/index.html not found
+removing old entries
+removing lines from 12 to 18
+ZAW-269-tag-pages/status:failed
+ZAW-353-custom-html-for-slot-with-ads/status:running
+ZAW-372-arabic-fields-on-arabic-site/status:failed
+ZAW-388-slot-styles/status:failed
+main/status:running

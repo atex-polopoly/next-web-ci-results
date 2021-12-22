@@ -1,0 +1,113 @@
+
+***********************************************************
+*    1 - -- CLONE GIT REPO           *
+***********************************************************
+Cloning into '_'...
+updating all submodules urls to inject credentials
+fetching submodules code
+cb166d2dd4d90a03b6db3efe311487683fbab461 ZAW-340: no regression test on final website
+Gabriele Gattucci <> on Fri, 3 Dec 2021 11:57:05 +0100
+giving 777 to build scripts
+/_/ci-cd/pipelines/main.sh doesn't exist. Fallback: /_/ci-cd/pipelines/development.sh
+
+***********************************************************
+***********************************************************
+*    2 - -- FETCH CI RESULT REPO (IN PARALLEL)
+***********************************************************
+
+***********************************************************
+***********************************************************
+*    3 - -- CHECK COMMIT MESSAGE
+***********************************************************
+search for pattern:       ! -iname main -a    ! -iname ZAW-208-bordered-slot-style -a    ! -iname ZAW-340-fullwidth-carousels-in-gallery -a    ! -iname ZAW-44-integration-with-tag-and-add-manager -a    ! -iname ZAW-74-zawya.com-redirection -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname ..
+ticket referenced in commit message is 'ZAW-340'
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=0
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+Cloning into '/__'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 15772    0 15772    0     0  28941      0 --:--:-- --:--:-- --:--:-- 28939100  171k    0  171k    0     0   313k      0 --:--:-- --:--:-- --:--:--  312k
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=1001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  107k    0  107k    0     0   339k      0 --:--:-- --:--:-- --:--:--  339k
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=2001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    249      0 --:--:-- --:--:-- --:--:--   250
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=3001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    265      0 --:--:-- --:--:-- --:--:--   266
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=4001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    254      0 --:--:-- --:--:-- --:--:--   253
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=5001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    278      0 --:--:-- --:--:-- --:--:--   280
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=6001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    260      0 --:--:-- --:--:-- --:--:--   261
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=7001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    275      0 --:--:-- --:--:-- --:--:--   277
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=8001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    267      0 --:--:-- --:--:-- --:--:--   267
+running query: https://atexmedia.atlassian.net/rest/api/2/search?jql=filter%3D10326%20ORDER%20BY%20id%20DESC&fields=key&maxResults=1000&startAt=9001
+if you want to change the query output change the filter https://atexmedia.atlassian.net/issues/?filter=10326
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    56    0    56    0     0    242      0 --:--:-- --:--:-- --:--:--   241
+1625 tickets fetched by the given filter
+ZAW-340
+incoming commit message has a good prefix :)
+
+***********************************************************
+***********************************************************
+*    4 - -- RESTORE NPM PACKAGES
+***********************************************************
+yarn config v1.22.5
+success Set "network-timeout" to "300000".
+Done in 0.02s.
+yarn install v1.22.5
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+Checking out files:  13% (562/4247)   Checking out files:  14% (595/4247)   Checking out files:  15% (638/4247)   Checking out files:  16% (680/4247)   Checking out files:  17% (722/4247)   Checking out files:  18% (765/4247)   Checking out files:  19% (807/4247)   Checking out files:  20% (850/4247)   Checking out files:  21% (892/4247)   Checking out files:  22% (935/4247)   Checking out files:  23% (977/4247)   Checking out files:  24% (1020/4247)   Checking out files:  25% (1062/4247)   Checking out files:  26% (1105/4247)   Checking out files:  27% (1147/4247)   Checking out files:  27% (1149/4247)   Checking out files:  28% (1190/4247)   Checking out files:  29% (1232/4247)   Checking out files:  30% (1275/4247)   Checking out files:  31% (1317/4247)   Checking out files:  32% (1360/4247)   Checking out files:  33% (1402/4247)   Checking out files:  34% (1444/4247)   Checking out files:  35% (1487/4247)   Checking out files:  36% (1529/4247)   Checking out files:  37% (1572/4247)   Checking out files:  38% (1614/4247)   Checking out files:  39% (1657/4247)   Checking out files:  40% (1699/4247)   Checking out files:  41% (1742/4247)   Checking out files:  42% (1784/4247)   Checking out files:  42% (1817/4247)   Checking out files:  43% (1827/4247)   Checking out files:  44% (1869/4247)   Checking out files:  45% (1912/4247)   Checking out files:  46% (1954/4247)   Checking out files:  47% (1997/4247)   Checking out files:  48% (2039/4247)   Checking out files:  49% (2082/4247)   Checking out files:  50% (2124/4247)   Checking out files:  51% (2166/4247)   Checking out files:  52% (2209/4247)   Checking out files:  53% (2251/4247)   Checking out files:  54% (2294/4247)   Checking out files:  55% (2336/4247)   Checking out files:  56% (2379/4247)   Checking out files:  57% (2421/4247)   Checking out files:  57% (2461/4247)   Checking out files:  58% (2464/4247)   Checking out files:  59% (2506/4247)   Checking out files:  60% (2549/4247)   Checking out files:  61% (2591/4247)   Checking out files:  62% (2634/4247)   Checking out files:  63% (2676/4247)   Checking out files:  64% (2719/4247)   Checking out files:  65% (2761/4247)   Checking out files:  66% (2804/4247)   Checking out files:  67% (2846/4247)   Checking out files:  68% (2888/4247)   Checking out files:  69% (2931/4247)   Checking out files:  70% (2973/4247)   Checking out files:  71% (3016/4247)   Checking out files:  72% (3058/4247)   Checking out files:  73% (3101/4247)   Checking out files:  73% (3134/4247)   Checking out files:  74% (3143/4247)   Checking out files:  75% (3186/4247)   Checking out files:  76% (3228/4247)   Checking out files:  77% (3271/4247)   Checking out files:  78% (3313/4247)   Checking out files:  79% (3356/4247)   Checking out files:  80% (3398/4247)   Checking out files:  81% (3441/4247)   Checking out files:  82% (3483/4247)   Checking out files:  83% (3526/4247)   Checking out files:  84% (3568/4247)   Checking out files:  85% (3610/4247)   Checking out files:  86% (3653/4247)   Checking out files:  87% (3695/4247)   Checking out files:  88% (3738/4247)   Checking out files:  88% (3740/4247)   Checking out files:  89% (3780/4247)   Checking out files:  90% (3823/4247)   Checking out files:  91% (3865/4247)   Checking out files:  92% (3908/4247)   Checking out files:  93% (3950/4247)   Checking out files:  94% (3993/4247)   Checking out files:  95% (4035/4247)   Checking out files:  96% (4078/4247)   Checking out files:  97% (4120/4247)   Checking out files:  98% (4163/4247)   Checking out files:  99% (4205/4247)   Checking out files: 100% (4247/4247)   Checking out files: 100% (4247/4247), done.
+ci-repo folder content before cleanup:
+ZAW-208-bordered-slot-style
+ZAW-340-fullwidth-carousels-in-gallery
+ZAW-44-integration-with-tag-and-add-manager
+ZAW-74-zawya.com-redirection
+error.png
+index.html
+main
+running.gif
+success.png
+4270 files in total (84 folders)
+command about to run: find . \(       ! -iname main -a    ! -iname ZAW-208-bordered-slot-style -a    ! -iname ZAW-340-fullwidth-carousels-in-gallery -a    ! -iname ZAW-44-integration-with-tag-and-add-manager -a    ! -iname ZAW-74-zawya.com-redirection -a    ! -iname main -a  ! -iname .git -a  ! -iname . -a  ! -iname .. \) -maxdepth 1 -type d -exec rm -rf {} +
+ci-repo folder content after cleanup:
+ZAW-208-bordered-slot-style
+ZAW-340-fullwidth-carousels-in-gallery
+ZAW-44-integration-with-tag-and-add-manager
+ZAW-74-zawya.com-redirection
+error.png
+index.html
+main
+running.gif
+success.png
+4270 files in total (84 folders)
+rebuilding report
